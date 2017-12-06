@@ -58,13 +58,16 @@
   background-size: cover;
 }
 
+
+
 // Font Mixins
 @mixin header1-font {
   font-family: 'PT Sans', sans-serif, bold;;
 }
 
-
-
+@mixin smallhead-font {
+  font-family: 'Inconsolata', monospace;
+}
 @mixin script-font {
   font-family: 'Lilita One', cursive;
 }
